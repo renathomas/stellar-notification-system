@@ -1,0 +1,36 @@
+{
+  "name": "stellar-notification-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.ts",
+    "dev": "nodemon src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^29.5.13",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.7.4",
+    "@types/urijs": "^1.19.25",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.3.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "json-schema": "^0.4.0",
+    "nock": "^13.5.5",
+    "urijs": "^1.19.11",
+    "winston": "^3.15.0"
+  }
+}
